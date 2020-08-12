@@ -30,5 +30,5 @@
 
 ; starting point of server.
 (defn -main [& args]
-  (run-server app {:port 8080})
+  (run-server app {:port 3000})
   (println "Server started on port 8080"))
